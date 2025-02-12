@@ -6,7 +6,8 @@ Integració Continua
 def factorial(num):
 
     """ Funció factorial
-    que cumplís lo especificat aplicant recursivitat"""
+    que cumplís lo especificat aplicant recursivitat
+    i contemplant els distints tests"""
 
     # Si no és un entero, té que donar error
     if not isinstance(num, int):
