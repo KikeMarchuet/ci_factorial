@@ -1,3 +1,6 @@
+
+"""Mòdul funció factorial."""
+
 def factorial(num):
 
     # Si no és un entero, té que donar error
@@ -8,7 +11,7 @@ def factorial(num):
         raise TypeError("El número no pot ser un booleà")
 
     # Error si és negatiu
-    if (num < 0):
+    if num < 0:
         raise ValueError("El número deu ser major que zero")
 
     # Situació base
