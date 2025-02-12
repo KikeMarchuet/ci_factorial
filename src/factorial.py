@@ -1,5 +1,7 @@
 
-"""Mòdul funció factorial."""
+"""Mòdul funció factorial.
+Integració Continua
+"""
 
 def factorial(num):
 
@@ -15,7 +17,7 @@ def factorial(num):
         raise ValueError("El número deu ser major que zero")
 
     # Situació base
-    if num == 0 or num == 1:
+    if num in (0, 1):
         return 1
 
     # Recursivitat
