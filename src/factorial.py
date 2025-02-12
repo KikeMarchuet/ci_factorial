@@ -5,6 +5,9 @@ Integració Continua
 
 def factorial(num):
 
+    """ Funció factorial
+    que cumplís lo especificat aplicant recursivitat"""
+
     # Si no és un entero, té que donar error
     if not isinstance(num, int):
         raise TypeError("El número deu ser un entero")
