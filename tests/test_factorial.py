@@ -1,6 +1,6 @@
 # Integraciño continua
 
-import src.factorial as factorial
+from src.factorial import factorial
 import pytest
 
 def test_factorial_1():
