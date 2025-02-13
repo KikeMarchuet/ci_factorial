@@ -1,4 +1,4 @@
-# Integraciño continua
+# Integració continua
 
 from src.factorial import factorial
 import pytest
