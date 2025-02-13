@@ -4,7 +4,7 @@ from src.factorial import factorial
 import pytest
 
 def test_factorial_1():
-    assert factorial.factorial(1) == 1
+    assert factorial(1) == 1
 
 def test_no_entero():
 
