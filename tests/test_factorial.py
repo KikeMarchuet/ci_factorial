@@ -10,19 +10,19 @@ def test_no_entero():
 
     # Si passem una cadena
     with pytest.raises(TypeError):
-        factorial.factorial("a")
+        factorial("a")
 
     # Si passem un float
     with pytest.raises(TypeError):
-        factorial.factorial(3.5)
+        factorial(3.5)
 
     # Si passem un booleà
     with pytest.raises(TypeError):
-        factorial.factorial(True)
+        factorial(True)
 
 def test_negativo():
     with pytest.raises(ValueError):
-        factorial.factorial(-5)
+        factorial(-5)
 
 def test_5():
-    assert factorial.factorial(5) == 120
+    assert factorial(5) == 120
